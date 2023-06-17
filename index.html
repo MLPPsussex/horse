@@ -21,7 +21,7 @@
 
     // Load the OBJ model
     var loader = new THREE.OBJLoader();
-    loader.load('./my.obj', function(object) {
+    loader.load('my.obj', function(object) {
       object.position.y = -1; // Adjust the position of the model
       scene.add(object);
     });
