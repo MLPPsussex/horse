@@ -9,6 +9,7 @@
   </style>
 </head>
 <body>
+  <h1> 3d rotate</h1>
   <script src="https://threejs.org/build/three.js"></script>
   <script src="https://threejs.org/examples/js/loaders/OBJLoader.js"></script>
   <script>
@@ -21,7 +22,7 @@
 
     // Load the OBJ model
     var loader = new THREE.OBJLoader();
-    loader.load('my.obj', function(object) {
+    loader.load('maneken.obj', function(object) {
       object.position.y = -1; // Adjust the position of the model
       scene.add(object);
     });
